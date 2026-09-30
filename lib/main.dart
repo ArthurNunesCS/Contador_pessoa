@@ -36,6 +36,17 @@ class HomePage extends StatelessWidget {
               color: Colors.black,
             ),
           ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              TextButton(onPressed: decrement, 
+                child: Text('Sair'),
+              ),
+              TextButton(onPressed: increment, 
+                child: Text('Entrar')
+              ),
+            ],
+          ),
         ],
       ),
     );
