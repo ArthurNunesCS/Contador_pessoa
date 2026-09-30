@@ -15,6 +15,10 @@ class MyApp extends StatelessWidget {
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
+
+  void decrement(){ print('decrement');}
+  void increment(){ print('increment');}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
